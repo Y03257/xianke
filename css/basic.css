@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 1519px;
+	background: #fff;
+	margin: 0px auto;
+}
+ul,li{
+	list-style-type: none;
+}
+nav ul li{
+	float: left;
+}
+/*轮播*/
+
+.tu{
+	position: absolute;
+}
+.tu li{
+	width: 1519px;
+	float: left;
+}
+.b{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	cursor: pointer;
+}
+.dian {
+	list-style: none;
+	position: absolute;
+	bottom: 10px;
+	left: 45em;
+}
+.dian li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	line-height: 10px;
+	text-align: center;
+	border-radius: 50%;
+	background-color:darkgrey;
+	margin-right: 10px;
+}
+.active{
+	background-color: dimgray !important;
+}
+
+/*footer部分*/
+
+.footer {
+	color:dimgrey;
+	font-size: 1em;
+	line-height: 1.8em;
+	vertical-align: middle;
+	padding: 1em 7em;
+	height: 8em;
+	background-color:ghostwhite;
+}
+.footer p{
+	margin: 0.4em 0;
+}
+.footer-right ul {
+	padding: 0;
+}
+.footer-right li {
+	display: inline-block;
+	margin: 0 1em;
+}
+.footer-left {
+	float: left;
+	/*左浮动*/
+}
+.footer-right {
+	float: right;
+	/*右浮动*/
+	margin: 1em auto;
+}
+.footer_z{
+	padding: 0 1em;
+}
+.footer span{
+	font-weight: bold;
+	color: black;
+	padding: 0 1em;
+}

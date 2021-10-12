@@ -1,0 +1,236 @@
+/*头部*/
+.header{
+	font-size:1em;
+	color:dimgrey;
+}
+.header .top{
+	line-height: 2em;
+	height: 2.5em;
+	background-color:ghostwhite;
+	padding: 0 4em;
+	vertical-align: middle;
+} 
+.header .top .left{
+	float: left;
+}
+.header .top .left span{
+	color:darkorange;
+	font-weight: bold;
+}
+.header .top .right{
+	float: right;
+}
+.header .top .right ul {
+	padding: 0;
+}
+.header .top .right li {
+	display: inline-block;
+	margin: 0 1em;
+	cursor: pointer;
+}
+.header .shopp{
+	color:darkorange;
+}
+.header .bot{
+	margin-top: 2em;
+	height: 10em;
+}
+.header .logo{
+	float: left;
+	margin: 0px 8em;
+}
+.header .kuang{
+	border:none;
+	padding:1em 0 0 1.5em ;
+}
+.header .seach{
+	border: 1px solid #ede3e7;
+    border-radius: 50px;
+	width: 18em;
+	height: 2.5em;
+	float: left;
+	margin-left:8em ;
+}
+.header .seach:hover{
+	box-shadow: 0px 0px 6px darksalmon;
+}
+.header .seach .btn{
+	float: right;
+	background-color:darksalmon;
+	border-radius:0 50px 50px 0;
+	width: 3.9em;
+	height: 2em;
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+	padding-top:0.25em ;
+	cursor: pointer;
+}
+.header .bot .right{
+	float: right;
+	padding-right:8em ;
+	margin-top:1em ;
+}
+.header .bot .right li {
+	display: inline-block;
+	margin: 0 1em;
+}
+
+/*导航栏及轮播*/
+.nav .left{
+	width:  1519px;
+	height: 33.2em;
+}
+.right_lb {
+	width:  1519px;
+	height: 33.2em;
+	margin: -35px 0 0;
+	position: absolute;
+	overflow: hidden;
+}
+#left{
+	top: 170px;
+	left: -10px;
+	opacity: 0.1;
+}
+#right{
+	top: 170px;
+	right:-40px;
+	opacity: 0.1;
+}
+.tu img{
+	width:  1519px;
+	height: 33em;
+}
+.nav .left_wz{
+	line-height: 2em;
+	float: left;
+	width: 374px;
+	position: absolute;
+	margin:-5.4em 0em 0em 8em;
+	background-color: #F8F8FF;
+	opacity:0.8;
+}
+.nav .left_wz ul {
+	padding: 0;
+	margin: 6.2em auto;
+}
+.nav .left_wz li{
+	display: inline-block;
+	margin: 0 1.4em;
+	font-size:0.8em ;
+	cursor: pointer;
+}
+.nav h3{
+	background-color:darksalmon;
+	color: white;
+	text-align: left;
+	padding-left:1em;
+	height: 2.7em;
+	line-height: 2.7em;
+	margin-bottom: -95px;
+}
+.nav h4{
+	padding-left:1em;
+}
+
+.nav .daohang{
+	float: right;
+	margin-right:-13em;
+	margin-top: -4em;
+}
+.nav .daohang ul {
+	padding: 0;
+}
+.nav .daohang li{
+	display: inline-block;
+	margin: 0 2em;
+}
+.nav .daohang .daohang_xh{
+	text-decoration: none;
+	color: #000000;
+}
+.nav li:hover{
+	color:darksalmon ;
+	cursor: pointer;
+}
+/*今日疯抢*/
+.fengqiang{
+	margin-left: 7.8em;
+	cursor: pointer;
+}
+.fq{
+	float: left;
+	margin:1em;
+}
+.juan{
+	width: 410px;
+}
+.juan p{
+	float: right;
+	color:dimgrey;
+	margin-top: -1.5em;
+	margin-left: 4em;
+}
+.fq .tj{
+	width: 0em;
+	height: 0em;
+	position: absolute;
+	margin-left: 15.6em;
+	border-bottom: 1.6em solid transparent;
+	border-top: 1.6em solid darksalmon;
+	border-left: 1.5em solid darksalmon;
+	border-right: 1.5em solid darksalmon;
+}
+.fq .fq_zi{
+	text-align: center;
+	font-weight:bold ;
+}
+.fq .fq_jsao{
+	margin:0.8em auto 1em;
+}
+.fq .fq_price{
+	color: red;
+}
+.fq .fq_price span{
+	color: white;
+	margin: 0 0.6em;
+	background-color:darksalmon ;
+	padding: 0.3em 1em;
+	border-radius: 5px;
+}
+/*商品推荐*/
+.SP_tuijian {
+	margin: 28em 0 0 9em;
+}
+.SP_tuijian img{
+	float: left;
+	margin: 1em 1em 2em;
+}
+.SP_tuijian img:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 7px darkgray;
+}
+.SP_tuijian .SP_wz li{
+	display: inline-block;
+}
+.SP_tuijian .SP_wz .SP_TJ{
+	font-size: 2em;
+	font-weight: bold;
+}
+.SP_tuijian .SP_wz .SP_more{
+	float: right;
+	padding-right: 8em;
+}
+/*特色*/
+.TS{
+	margin: 2em auto;
+	padding-left:9em ;
+}
+.TS img{
+	margin: 0em 1.1em;
+}
+.TS img:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 6px darkgray;
+}
